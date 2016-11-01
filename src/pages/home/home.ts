@@ -31,4 +31,8 @@ export class HomePage {
 
   }
 
+  itemClicked(event, item) {
+    console.log(item.title);
+  }
+
 }
