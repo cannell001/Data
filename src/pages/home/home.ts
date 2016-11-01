@@ -8,6 +8,25 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  items = [
+    {title: 'Apple'},
+    {title: 'Cherry'},
+    {title: 'Banana'},
+    {title: 'Other'},
+    {title: 'Tomato'},
+    {title: 'Grape'},
+    {title: 'Pomegranate'},
+    {title: 'Carrot'},
+    {title: 'Apple'},
+    {title: 'Cherry'},
+    {title: 'Banana'},
+    {title: 'Other'},
+    {title: 'Tomato'},
+    {title: 'Grape'},
+    {title: 'Pomegranate'},
+    {title: 'Carrot'},
+  ]
+
   constructor(public navCtrl: NavController) {
 
   }
