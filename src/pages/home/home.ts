@@ -12,9 +12,10 @@ export class HomePage {
   items
 
   constructor(public navCtrl: NavController, private http: Http) {
-        //this.http.get("http://task.lafrim.net/artists/api.php/artists").map(res => res.json()).subscribe(data => {
+        //this.http.get("http://task.lafrime.net/artists/api.php/artists").map(res => res.json()).subscribe(data => {
         //this.http.get("https://api.randomuser.me/?results=10").map(res => res.json()).subscribe(data => {
         this.http.get("http://localhost:3000/db").map(res => res.json()).subscribe(data => {
+        //this.http.get("https://randomuser.me/api/?results").map(res => res.json()).subscribe(data => {
         this.items = data;
         //this.items.push(data);
         console.log("GOT RESULTS");
